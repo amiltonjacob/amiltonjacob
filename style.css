@@ -1,0 +1,85 @@
+
+.menu-btn {
+    display: inline-block; /* Define a aparência e o comportamento dos botões do menu, incluindo cor, tamanho e comportamento ao clicar.
+
+    */
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu-container {
+    display: flex; /* Alinha os botões do menu usando flexbox para centralizá-los horizontalmente e posicioná-los no início da página verticalmente.*/
+    justify-content: center;
+    align-items: flex-start; 
+    min-height: 20vh; 
+    padding-top: 20px; 
+    box-sizing: border-box; 
+}
+h1,h2,h3,ol {
+    text-align: center; /* Centralizar o texto horizontalmente */
+}
+
+.imagem-centralizada { /*Centraliza horizontalmente as imagens na página.*/
+    display: block;
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, sans-serif;  /*Define a fonte, cor do texto, cor de fundo e espaçamento padrão da página.*/
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header { /*Define a cor de fundo, cor do texto e centraliza o texto no cabeçalho.*/
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container { /* Centraliza o contêiner principal, define sua largura máxima, cor de fundo e adiciona uma sombra ao redor.*/
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.main-content {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.quote { /* Define o estilo itálico e espaçamento inferior para as citações.*/
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
